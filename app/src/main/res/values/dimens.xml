@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--应用市场等布局  1*1 高1-->
+    <dimen name="app_loyout_minHeight">55dp</dimen>
+    <dimen name="app_loyout_minWidth">55dp</dimen>
+    <!--设备状态布局 2*3-->
+    <dimen name="devicestatus_loyout_minHeight">250dp</dimen>
+    <dimen name="devicestatus_loyout_minWidth">390dp</dimen>
+    <!--音量设置布局 2*2-->
+    <dimen name="volumerelate_loyout_minHeight">250dp</dimen>
+    <dimen name="volumerelate_loyout_minWidth">250dp</dimen>
+    <!--开机运行时间布局 2*2-->
+    <dimen name="bootrunning_loyout_minHeight">250dp</dimen>
+    <dimen name="bootrunning_loyout_minWidth">250dp</dimen>
+    <!--设备信息布局 1*2-->
+    <dimen name="deviceinfo_loyout_minHeight">55dp</dimen>
+    <dimen name="deviceinfo_loyout_minWidth">250dp</dimen>
+    <!--消息布局 1*2-->
+    <dimen name="news_loyout_minHeight">55dp</dimen>
+    <dimen name="news_loyout_minWidth">390dp</dimen>
+    <!--CPU布局 2*3-->
+    <dimen name="cpu_loyout_minHeight">250dp</dimen>
+    <dimen name="cpu_loyout_minWidth">390dp</dimen>
+    <!--字体和图片-->
+    <dimen name="text25sp">25sp</dimen>
+    <dimen name="text28sp">28sp</dimen>
+    <dimen name="text32sp">32sp</dimen>
+    <dimen name="text36sp">36sp</dimen>
+    <dimen name="text56sp">56sp</dimen>
+    <dimen name="image50dp">50dp</dimen>
+    <dimen name="image100dp">100dp</dimen>
+    <dimen name="image120dp">120dp</dimen>
+
+
+</resources>

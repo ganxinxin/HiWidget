@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hisense">
+
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+
+    <application
+        android:name=".app.MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <!-- 服务 -->
+        <service
+            android:name=".sevice.UpdateStatusService"
+            android:enabled="true"
+            android:exported="true" />
+        <!-- 一键锁屏接收器 -->
+        <receiver
+            android:name=".sevice.LockReceiver"
+            android:description="@string/app_name"
+            android:label="@string/app_name"
+            android:permission="android.permission.BIND_DEVICE_ADMIN">
+            <meta-data
+                android:name="android.app.device_admin"
+                android:resource="@xml/lock_screen" />
+
+            <intent-filter>
+                <action android:name="android.app.action.DEVICE_ADMIN_ENABLED" />
+            </intent-filter>
+        </receiver>
+        <!-- 自适应屏幕设置 -->
+        <meta-data
+            android:name="design_width_in_dp"
+            android:value="1920" />
+        <meta-data
+            android:name="design_height_in_dp"
+            android:value="1080" />
+        <!-- 设备信息显示 -->
+        <receiver
+            android:name=".widget.DeviceInforWidget"
+            android:description="@string/main_devInfo"
+            android:label="@string/main_devInfo">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/device_infor_widget_info" />
+        </receiver>
+        <!-- 消息显示 -->
+        <receiver
+            android:name=".widget.NewsWidget"
+            android:description="@string/main_message"
+            android:label="@string/main_message">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/news_widget_info" />
+        </receiver>
+        <!-- 运行时间 -->
+        <receiver
+            android:name=".widget.BootRunningWidget"
+            android:description="@string/main_runTime"
+            android:label="@string/main_runTime">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/boot_running_widget_info" />
+        </receiver>
+        <!-- 设备状态 -->
+        <receiver
+            android:name=".widget.DeviceStatusWidget"
+            android:description="@string/main_network"
+            android:label="@string/main_network">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+                <action android:name="com.zwq.systatus" />
+                <action android:name="com.zwq.networkstatus" />
+                <action android:name="com.zwq.printerstatus" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/device_status_widget_info" />
+        </receiver>
+        <!-- CPU状态 -->
+        <receiver
+            android:name=".widget.CpuLineChartWidget"
+            android:description="@string/main_CPURate"
+            android:label="@string/main_CPURate">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+                <action android:name="action_update_time" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/cpu_line_widget_info" />
+        </receiver>
+        <!-- 硬件检测 -->
+        <receiver
+            android:name=".widget.HardTestWidget"
+            android:description="@string/main_hardMana"
+            android:label="@string/main_hardMana">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+                <action android:name="com.zwq.hardtesttask" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/hard_test_widget_info" />
+        </receiver>
+        <!-- 应用市场 -->
+        <receiver
+            android:name=".widget.AppButlerWidget"
+            android:description="@string/main_appmall"
+            android:label="@string/main_appmall">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+                <action android:name="com.zwq.appbutlertask" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/app_butler_widget_info" />
+        </receiver>
+        <!-- 音量调节 -->
+        <receiver
+            android:name=".widget.VolumeRelateWidget"
+            android:description="@string/action_settings"
+            android:label="@string/action_settings">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+                <action android:name="com.zwq.volumeadd" />
+                <action android:name="com.zwq.volumesubtract" />
+                <action android:name="com.zwq.lightadd" />
+                <action android:name="com.zwq.lightsubtract" />
+                <action android:name="com.zwq.silenttask" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/volume_relate_widget_info" />
+        </receiver>
+        <!-- 故障检测 -->
+        <receiver
+            android:name=".widget.FalutTestWidget"
+            android:description="@string/tro_remote"
+            android:label="@string/tro_remote">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/falut_test_widget_info" />
+        </receiver>
+        <!-- 锁定界面 -->
+        <activity
+            android:name=".view.LockActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="sensor" />
+        <!-- 自定义 -->
+        <receiver android:name=".widget.CustomWidget"
+            android:description="@string/customwidget_text"
+            android:label="@string/customwidget_text">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/custom_widget_info" />
+        </receiver>
+    </application>
+
+</manifest>

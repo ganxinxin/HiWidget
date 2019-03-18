@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_area"
+    android:padding="40dp"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+
+    <ImageView
+        android:id="@+id/img_hardManager"
+        android:layout_width="@dimen/image100dp"
+        android:layout_height="@dimen/image100dp"
+        android:gravity="center"
+        android:background="@drawable/main_hardmana" />
+
+    <TextView
+        android:id="@+id/tv_refresh"
+        android:layout_width="194dp"
+        android:layout_height="100dp"
+        android:gravity="center"
+        android:paddingLeft="20dp"
+        android:text="@string/main_hardMana"
+        android:textColor="#21BFD4"
+        android:textSize="@dimen/text32sp" />
+
+</LinearLayout>

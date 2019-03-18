@@ -1,0 +1,279 @@
+<resources>
+
+    <string name="action_settings">Settings</string>
+    <string name="version">V1.00.11709.HK716.ty</string>
+
+    <string name="main_runTime">Run time</string>
+    <string name="main_upSpeed">Upload: </string>
+    <string name="main_downSpeed">Download: </string>
+    <string name="main_devPerf">Device</string>
+    <string name="main_network">Network</string>
+    <string name="main_exeUnit">External unit</string>
+    <string name="main_printer">Printer</string>
+    <string name="main_scan">Scan</string>
+    <string name="main_mem">Memory</string>
+    <string name="main_CPURate">CPU usage</string>
+    <string name="main_stor">Storage</string>
+    <string name="main_storRe">Storage remainder</string>
+    <string name="main_memRe">Memory surplus</string>
+    <string name="main_hardMana">Hardware Manager</string>
+    <string name="main_devInfo">Device infomation</string>
+    <string name="main_errorDeal">Trouble shooting</string>
+    <string name="main_settings">Settings</string>
+    <string name="main_message">Message</string>
+    <string name="main_introduction">Introduction</string>
+    <string name="main_appmall">AppMall</string>
+
+    <string name="tro_title">Troubleshoot</string>
+    <string name="tro_oneKey">One key detection</string>
+    <string name="tro_total">Comprehensive detection</string>
+    <string name="tro_prob">Equipment failures</string>
+    <string name="tro_remote">Remote Assist</string>
+    <string name="tro_start">Start remote Assist</string>
+    <string name="tro_stop">Stop remote Assist</string>
+    <string name="device_test">Device detecting</string>
+    <string name="positive">OK</string>
+    <string name="tip">tip</string>
+    <string name="setbaudrate">Please set baudrate</string>
+    <string name="retest">Printer is off-power or baudrate is not set correctly,please retest after correction!</string>
+    <string name="abnormal">Printer status:abnormal!</string>
+    <string name="normal">Printer status:normal!</string>
+    <string name="test_printer">Printer status</string>
+    <string name="empty_paper">Out of paper,please reload and press ok to continue</string>
+    <string name="press_to_print">Printer is ready,please press button to test</string>
+    <string name="print">Print</string>
+    <string name="sysinfo">System info</string>
+    <string name="localsn">Product SN</string>
+    <string name="sysver">System version</string>
+    <string name="corever">Kernal version</string>
+    <string name="OSver">OS version</string>
+    <string name="hardmanagerver">Hardware test version</string>
+    <string name="touchver">Touch screen firmware version</string>
+    <string name="unknown">unknown</string>
+    <string name="totalspace">Total space</string>
+    <string name="availablespace">Available space</string>
+    <string name="screen_resolution">Screen resolution</string>
+
+    <string name="deverr_des">Failure description</string>
+    <string name="deverr_imgupload">Picture upload</string>
+    <string name="deverr_fileupload">File upload</string>
+    <string name="deverr_upload">Upload</string>
+    <string name="deverr_delete">Delete</string>
+    <string name="deverr_failureup">Failure upload</string>
+    <string name="deverr_normalerr">Common problems</string>
+
+    <string name="onekey_save">Save result</string>
+    <string name="onekey_upload">Upload result</string>
+    <string name="onekey_groupNet">Network</string>
+    <string name="onekey_normal">Normal</string>
+    <string name="onekey_abnormal">Abnormal</string>
+    <string name="onekey_net">Network connections</string>
+    <string name="onekey_groupperf">Equipment performance</string>
+    <string name="onekey_cpuperf">CPU performance</string>
+    <string name="onekey_ramperf">RAM available</string>
+    <string name="onekey_romperf">Storage available</string>
+    <string name="onekey_startTime">Starting time</string>
+    <string name="onekey_totalTime">Total run time</string>
+    <string name="onekey_peripheral">Peripheral</string>
+    <string name="onekey_printer">Printer</string>
+    <string name="onekey_printerOut">Out of paper</string>
+    <string name="onekey_cash">Cashbox</string>
+    <string name="onekey_soft">Software</string>
+    <string name="onekey_update">Update</string>
+
+
+    app_versionName
+    <string name="app_versionName">V1.00.I327.HK716.HXZS</string>
+    <string name="app_versionCode">1</string>
+    <string name="app_name">HiWidget</string>
+    <string name="item_hw_main_info">MainInformation</string>
+    <string name="item_notification_centre">notification</string>
+    <string name="item_task_centre">task manager</string>
+    <string name="item_app_centre">app manager</string>
+    <string name="item_remote_centre">remote tools</string>
+    <string name="item_settings">settings</string>
+    <string name="title_item_list">Items</string>
+    <string name="title_item_detail">Item Detail</string>
+
+    <string name="posOverview">PosOverview</string>
+    <string name="cpu">CPU</string>
+    <string name="memory">Memory</string>
+    <string name="lcd">Lcd</string>
+    <string name="firmware_version">FirmwareVersion</string>
+    <string name="network">Network</string>
+    <string name="peripheral">Peripheral</string>
+    <string name="others">Others</string>
+
+    <string name="saveScreenshot">SaveScreenshot</string>
+
+    <string name="brand">Brand</string>
+    <string name="model">Model</string>
+    <string name="gpuRender">GPURender</string>
+    <string name="mainBoard">MainBoard</string>
+    <string name="cpuName">CPU</string>
+    <string name="totalRAM">RAM</string>
+    <string name="totalROM">ROM</string>
+
+    <string name="cpuBits">Type</string>
+    <string name="cpuHard">CpuHard</string>
+    <string name="freqRange">FreqRange</string>
+    <string name="cpuNumCore">CpuNumCore</string>
+
+    <string name="totalRAM_display">TotalRAM</string>
+    <string name="avaiableRAM_display">AvaiableRAM</string>
+    <string name="totalROM_Display">TotalROM</string>
+    <string name="avaiableROM_Display">AvaiableROM</string>
+
+    <string name="gpuVendor">Vendor</string>
+    <string name="gpuVersion">Version</string>
+    <string name="screenDensity">Density</string>
+    <string name="screenResolution">Resolution</string>
+
+    <string name="touchScreenVersion">TouchScreenVersion</string>
+    <string name="firmwareVersion">FirmwareVersion</string>
+    <string name="systemVersion">SystemVersion</string>
+    <string name="baseBandVersion">BaseBandVersion</string>
+    <string name="serialNumber">SerialNumber</string>
+    <string name="deviceSerial">DeviceSerial</string>
+    <string name="linuxKernalVersion">LinuxKernalVersion</string>
+
+    <string name="wifi">WIFI</string>
+    <string name="wifiState">WIFI State</string>
+    <string name="wifiSSID">WIFI SSID</string>
+    <string name="wifiMacAddress">WLAN MAC</string>
+    <string name="ethernet">Ethernet</string>
+    <string name="ethernetState">Ethernet State</string>
+    <string name="ethernetMacAddress">Ethernet MAC</string>
+
+    <string name="printer">Printer</string>
+    <string name="magneticStripe">MagneticStripe</string>
+    <string name="contactlessCard">ContactlessCard</string>
+    <string name="secondScreen">SecondScreen</string>
+    <string name="touchScreen">TouchScreen</string>
+    <string name="card_number">Card number：</string>
+    <string name="swipe_times">Swipe times：</string>
+    <string name="swipe_msr">● Please swipe </string>
+    <string name="usbprinter_notconnected">Connected failed！</string>
+    <string name="usbprinter_connected">Connected success！</string>
+    <string name="connect_usb_printer">Test printer,please connect!</string>
+    <string name="msr">msr</string>
+    <string name="timeout">Detection time out,please swipe card \n to continue detection.</string>
+    <string name="wipe_tip1">Please swipe card in&#160;</string>
+    <string name="wipe_tip2">&#160;seconds</string>
+    <string name="detect_A">A type contactless card is detected</string>
+    <string name="detect_B">B type contactless card is detected</string>
+    <string name="detect_M">M type contactlesscard is detected</string>
+    <string name="swipe_card">● Please swipe A,B,M card</string>
+    <string name="rfid_attention">Attention:the standard version is without rfid.</string>
+    <string name="rfid">RFID</string>
+
+    <string name="support">Support</string>
+    <string name="nonSupport">NonSupport</string>
+
+    <string name="sdkLevel">SdkLevel</string>
+    <string name="deviceIMEI">IMEI</string>
+    <string name="frontCameraPix">FrontCameraPix</string>
+    <string name="backCameraPix">BackCameraPix</string>
+    <string name="electricLevel">ElectricLevel</string>
+
+    <string name="systemtag2">ft5x0x Touch screen firmware version:</string>
+    <string name="transmitunknowndesc">unknown</string>
+
+    <string name="check">check update package</string>
+    <string name="update">update</string>
+    <string name="click_check">check update package</string>
+
+    <string name="str_find">find</string>
+    <string name="str_num_files"> file(s)</string>
+    <string name="str_begin_copy">Copying file……</string>
+    <string name="str_begin_install">Updating system……</string>
+    <string name="str_begin_verify">Verifying upgrade file……</string>
+    <string name="str_install_err">Update failed!No permission?</string>
+    <string name="str_verify_err">Verify upgrade file failed!</string>
+    <string name="str_verify_file_err">Read upgrade file failed!</string>
+    <string name="str_verify_ok">Verify upgrade file success!</string>
+    <string name="str_verify">Verify upgrade file</string>
+    <string name="str_verifying">Verifying upgrade file,please wait……\n</string>
+    <string name="str_copy2sd">Copy upgrade file to internal storage</string>
+    <string name="str_copying">Copying upgrade file,please wait……\n</string>
+    <string name="str_copy_ok">Copy upgrade file success!</string>
+    <string name="str_copy_fail1">Copy failed,files are different size!</string>
+    <string name="str_copy_fail2">Copy failed,file does not exist!</string>
+
+    <string name="text_title_settings">settings</string>
+    <string name="text_title_service">service</string>
+    <string name="text_title_device">device</string>
+    <string name="text_title_remote">telecontrol</string>
+    <string name="connection">connection status</string>
+    <string name="connect_fail">fail</string>
+    <string name="connect_success">success</string>
+    <string name="remote_service">remote service</string>
+    <string name="remote_service_state_on">on</string>
+    <string name="remote_service_state_off">off</string>
+    <string name="remote_service_status">off</string>
+    <string name="update_mode">update mode</string>
+    <string name="update_mode_state_on">on</string>
+    <string name="update_mode_state_off">off</string>
+    <string name="PartnerID"> PartnerID</string>
+    <string name="PartnerIDNum">123456</string>
+    <string name="IPandPort">IP:Port</string>
+    <string name="OgrID">OgrID</string>
+    <string name="telecontrol_mode">telecontrol mode</string>
+    <string name="telecontrol_mode_choose">telecontrol mode choose</string>
+    <string name="vncserver">LAN</string>
+    <string name="vncserver_describe">1.Click the "start" button, start the vncserver, wait for remote control!\n2.click the "stop" button, turn off the remote control.</string>
+    <string name="Teamviewer">Internet</string>
+    <string name="OgrIDValue">1002</string>
+    <string name="EqtCode">EqtCode</string>
+    <string name="EqtCodeValue">00</string>
+    <string name="IPandPortValue">192.168.0.2:8080</string>
+    <string name="Save_Settings">Save</string>
+    <string name="confirm">Confirm</string>
+    <string name="cancle">Cancle</string>
+
+    <string name="back">back</string>
+    <string name="message_center">message center</string>
+    <string name="msg_all">all</string>
+    <string name="msg_read">read</string>
+    <string name="msg_unread">unread</string>
+    <string name="message_details">message details</string>
+    <string name="remote_update_message">remote update infomation</string>
+    <string name="update_time">update time</string>
+    <string name="file_name">file name</string>
+    <string name="update_version">version</string>
+    <string name="MD5_check">MD5 check</string>
+    <string name="detail_info">details</string>
+    <string name="execute_result">execute result</string>
+    <string name="execute_result_excuted">excuted</string>
+    <string name="execute_result_unexcuted">unexcuted</string>
+    <string name="execute_time">execute time</string>
+    <string name="execute_re_left">execute result</string>
+    <string name="execute_re_success">success</string>
+    <string name="execute_re_fail">fail</string>
+    <string name="task_serial">task serial</string>
+    <string name="app_update">application update</string>
+    <string name="sys_update">system update</string>
+    <string name="app_update_details">There is a new application update message !</string>
+    <string name="sys_update_details">You have a new system upgrade task!</string>
+    <string name="data_today">today</string>
+    <string name="refresh">refreshing</string>
+    <string name="loading">loading</string>
+
+    <string name="upload_file">Log Upload</string>
+    <string name="upload_path">File path</string>
+    <string name="upload_browse">browse</string>
+
+    <!-- 保存到共享数据的值：0，1，2，3，4，5，6 -->
+    <string-array name="feeds_list">
+        <item>"0mm"</item>
+        <item>"5mm"</item>
+        <item>"10mm"</item>
+        <item>"15mm"</item>
+        <item>"20mm"</item>
+        <item>"25mm"</item>
+        <item>"30mm"</item>
+    </string-array>
+    <string name="cpu_widget_text">CPU Occupancy Rate</string>
+    <string name="add_widget">Add widget</string>
+    <string name="customwidget_text">Custom Widget</string>
+</resources>

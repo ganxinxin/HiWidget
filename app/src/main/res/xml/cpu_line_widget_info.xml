@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+	android:initialLayout="@layout/cpu_line_widget"
+    android:minHeight="@dimen/cpu_loyout_minHeight"
+    android:minWidth="@dimen/cpu_loyout_minWidth"
+    android:previewImage="@drawable/main_bg"
+    android:resizeMode="horizontal|vertical"
+    android:updatePeriodMillis="0"
+    android:widgetCategory="home_screen">
+
+</appwidget-provider>

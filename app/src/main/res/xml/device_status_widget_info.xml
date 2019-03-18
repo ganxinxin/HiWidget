@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:initialKeyguardLayout="@layout/device_status_widget"
+    android:initialLayout="@layout/device_status_widget"
+    android:minHeight="@dimen/devicestatus_loyout_minHeight"
+    android:minWidth="@dimen/devicestatus_loyout_minWidth"
+    android:previewImage="@drawable/main_bg"
+    android:resizeMode="horizontal|vertical"
+    android:updatePeriodMillis="0"
+    android:widgetCategory="home_screen"></appwidget-provider>

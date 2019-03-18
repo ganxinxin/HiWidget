@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#E3E3E3</color>
+    <color name="colorSmallAccent">#858AA0</color>
+    <color name="colorWhite">#f0f0f0</color>
+    <color name="colorSelect">#e8e8e8</color>
+    <color name="colorBlue">#2086e0</color>
+    <color name="transparent">#ff4ac0e0</color>
+    <color name="colorText">#222222</color>
+    <color name="colortranspant">#00000000</color>
+    <color name="black">#333333</color>
+    <color name="colorCirclebg">#2C324F</color>
+    <color name="colorStart">#1212F6</color>
+    <color name="colorEnd">#F212C6</color>
+    <color name="colorArcStart">#35DEFB</color>
+    <color name="colorArcEnd">#A428FB</color>
+    <color name="colorRed">#D01B1B</color>
+
+    <color name="griditems_bg">#ffe8ecef</color>
+    <color name="commo_text_color">#ff333333</color>
+    <color name="line">#C1C6C0</color>
+    <color name="group_name">#33363F</color>
+    <color name="group_item">#08080E</color>
+    <color name="item_result">#4F5557</color>
+</resources>

@@ -1,0 +1,129 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_area"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:id="@+id/lin_startTime"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:padding="20dp"
+        android:gravity="center"
+        android:layout_gravity="center_vertical"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:gravity="center"
+            android:text="@string/main_runTime"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/text28sp" />
+
+        <TextView
+            android:id="@+id/tv_runTime"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:gravity="center"
+            android:text="45:00:00"
+            android:textColor="#21BFD7"
+            android:textSize="@dimen/text36sp" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/msginfo"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:padding="20dp"
+        android:layout_gravity="center_vertical"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="80dp">
+
+            <ImageView
+                android:id="@+id/img_up"
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/main_up" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:layout_marginLeft="10dp"
+                android:gravity="center"
+                android:text="@string/main_upSpeed"
+                android:textColor="@color/colorWhite"
+                android:textSize="@dimen/text28sp" />
+
+            <TextView
+                android:id="@+id/tv_upSpeed"
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:gravity="center"
+                android:text="1.1"
+                android:textColor="#21BFD7"
+                android:textSize="@dimen/text28sp"  />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:gravity="center"
+                android:text="Mbps"
+                android:textColor="#21BFD7"
+                android:textSize="@dimen/text28sp"  />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="80dp">
+
+            <ImageView
+                android:id="@+id/img_down"
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/main_down" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:layout_marginLeft="10dp"
+                android:gravity="center"
+                android:text="@string/main_downSpeed"
+                android:textColor="@color/colorWhite"
+                android:textSize="@dimen/text28sp" />
+
+            <TextView
+                android:id="@+id/tv_downSpeed"
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:gravity="center"
+                android:text="1.1"
+                android:textColor="#21BFD7"
+                android:textSize="@dimen/text28sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:gravity="center"
+                android:text="Mbps"
+                android:textColor="#21BFD7"
+                android:textSize="@dimen/text28sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
+
+
+
+

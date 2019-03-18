@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+	<string name="action_settings">设置</string>
+	<string name="version">V1.00.11709.HK716.ty</string>
+
+
+	<string name="main_runTime">本次运行时间</string>
+	<string name="main_upSpeed">上传速度：</string>
+	<string name="main_downSpeed">下载速度：</string>
+	<string name="main_devPerf">设备</string>
+	<string name="main_network">网络</string>
+	<string name="main_exeUnit">外设</string>
+	<string name="main_printer">打印机</string>
+	<string name="main_scan">扫码</string>
+	<string name="main_CPURate">CPU占用率</string>
+	<string name="main_stor">存储</string>
+	<string name="main_mem">内存</string>
+	<string name="main_storRe">存储剩余</string>
+	<string name="main_memRe">内存剩余</string>
+	<string name="main_hardMana">硬件管家</string>
+	<string name="main_devInfo">设备信息</string>
+	<string name="main_errorDeal">故障排除</string>
+	<string name="main_settings">设置维护</string>
+	<string name="main_message">消息通知</string>
+	<string name="main_introduction">操作指南</string>
+	<string name="main_appmall">应用市场</string>
+
+	<string name="tro_title">故障排除</string>
+	<string name="tro_oneKey">一键检测</string>
+	<string name="tro_total">全面检测</string>
+	<string name="tro_prob">设备问题</string>
+	<string name="tro_remote">远程协助</string>
+	<string name="tro_start">开启远程协助</string>
+	<string name="tro_stop">关闭远程协助</string>
+	<string name="device_test">设备检测</string>
+	<string name="positive">确定</string>
+	<string name="tip">提示</string>
+	<string name="setbaudrate">请设置波特率</string>
+	<string name="retest">打印机未上电或波特率设置不正确，请修正后重新检测!</string>
+	<string name="abnormal">打印机状态：异常！</string>
+	<string name="normal">打印机状态：正常！</string>
+	<string name="test_printer">检测打印机状态</string>
+	<string name="empty_paper">打印机缺纸，请添加打印纸,然后按确定继续</string>
+	<string name="press_to_print">打印机正常，请点击打印测试</string>
+	<string name="print">打印</string>
+	<string name="sysinfo">系统信息</string>
+	<string name="localsn">本机SN</string>
+	<string name="sysver">系统版本</string>
+	<string name="corever">内核版本</string>
+	<string name="OSver">操作系统版本</string>
+	<string name="hardmanagerver">硬件检测版本</string>
+	<string name="touchver">触摸屏固件</string>
+	<string name="unknown">未知</string>
+	<string name="totalspace">全部空间</string>
+	<string name="availablespace">剩余空间</string>
+	<string name="screen_resolution">屏幕分辨率</string>
+
+	<string name="onekey_save">保存结果</string>
+	<string name="onekey_upload">上传结果</string>
+	<string name="onekey_groupNet">网络</string>
+	<string name="onekey_normal">正常</string>
+	<string name="onekey_abnormal">异常</string>
+	<string name="onekey_net">网络连接</string>
+	<string name="onekey_groupperf">设备性能</string>
+	<string name="onekey_cpuperf">CPU性能</string>
+	<string name="onekey_ramperf">内存性能</string>
+	<string name="onekey_romperf">存储性能</string>
+	<string name="onekey_startTime">开机时间</string>
+	<string name="onekey_totalTime">总运行时间</string>
+	<string name="onekey_peripheral">外设</string>
+	<string name="onekey_printer">打印机</string>
+	<string name="onekey_printerOut">缺纸</string>
+	<string name="onekey_cash">钱箱</string>
+	<string name="onekey_soft">软件</string>
+	<string name="onekey_update">更新</string>
+
+	<string name="deverr_des">故障描述</string>
+	<string name="deverr_imgupload">图片上传</string>
+	<string name="deverr_fileupload">文件上传</string>
+	<string name="deverr_upload">上传</string>
+	<string name="deverr_delete">删除</string>
+	<string name="deverr_failureup">故障上报</string>
+	<string name="deverr_normalerr">常见问题</string>
+
+	<string name="app_versionName">V1.00.I327.HK716.HXZS</string>
+	<string name="app_versionCode">1</string>
+    <string name="app_name">海信小部件</string>
+    <string name="item_hw_main_info">硬件信息</string>
+ 	<string name="item_notification_centre">消息通知</string>
+ 	<string name="item_task_centre">任务管理</string>
+ 	<string name="item_app_centre">应用管理</string>
+ 	<string name="item_remote_centre">远程管理</string>
+ 	<string name="item_settings">设置</string>
+	<string name="title_item_list">项目</string>
+	<string name="title_item_detail">项目介绍</string>
+ 	
+ 	<string name="posOverview">POS概览</string>
+ 	<string name="cpu">处理器</string>
+ 	<string name="memory">存储</string>
+ 	<string name="lcd">显示屏</string>
+ 	<string name="firmware_version">固件版本</string>
+ 	<string name="network">网络</string>
+ 	<string name="peripheral">外设</string>
+ 	<string name="others">其他</string>
+
+	<string name="saveScreenshot">保存截图</string>
+
+	<string name="brand">品牌</string>
+	<string name="model">型号</string>
+	<string name="gpuRender">GPU渲染器</string>
+	<string name="mainBoard">主板</string>
+	<string name="cpuName">处理器</string>
+	<string name="totalRAM">内存</string>
+	<string name="totalROM">ROM</string>
+
+	<string name="cpuBits">类型</string>
+	<string name="cpuHard">CPU硬件</string>
+	<string name="freqRange">频率</string>
+	<string name="cpuNumCore">核心数</string>
+
+	<string name="totalRAM_display">总内存</string>
+	<string name="avaiableRAM_display">当前可用内存</string>
+	<string name="totalROM_Display">总ROM空间</string>
+	<string name="avaiableROM_Display">当前可用ROM空间</string>
+
+	<string name="gpuVendor">供应商</string>
+	<string name="gpuVersion">GPU版本</string>
+	<string name="screenDensity">屏幕密度</string>
+	<string name="screenResolution">分辨率</string>
+
+	<string name="touchScreenVersion">触摸屏固件版本</string>
+	<string name="firmwareVersion">固件版本</string>
+	<string name="systemVersion">Android版本</string>
+	<string name="baseBandVersion">基带版本</string>
+	<string name="serialNumber">序列号</string>
+	<string name="deviceSerial">硬件序列号</string>
+	<string name="linuxKernalVersion">内核版本</string>
+
+	<string name="wifi">WIFI</string>
+	<string name="wifiState">WIFI状态</string>
+	<string name="wifiSSID">网络名称</string>
+	<string name="wifiMacAddress">WLAN MAC</string>
+	<string name="ethernet">以太网</string>
+	<string name="ethernetState">以太网状态</string>
+	<string name="ethernetMacAddress">以太网MAC</string>
+
+	<string name="printer">打印机</string>
+	<string name="magneticStripe">磁条卡</string>
+	<string name="contactlessCard">非接卡</string>
+	<string name="secondScreen">第二屏</string>
+	<string name="touchScreen">触摸屏</string>
+	<string name="card_number">卡号：</string>
+	<string name="swipe_times">刷卡次数：</string>
+	<string name="swipe_msr">● 请刷卡 </string>
+	<string name="usbprinter_notconnected">打印机未连接成功！</string>
+	<string name="usbprinter_connected">打印机连接成功！</string>
+	<string name="connect_usb_printer">测试打印机，请连接usb打印机</string>
+	<string name="msr">磁条卡</string>
+	<string name="timeout">检测超时，继续检测请刷卡</string>
+	<string name="wipe_tip1">请在</string>
+	<string name="wipe_tip2">秒内刷卡</string>
+	<string name="detect_A">    检测到A类非接卡</string>
+	<string name="detect_B">    检测到B类非接卡</string>
+	<string name="detect_M">    检测到M类非接卡</string>
+	<string name="swipe_card">● 请挥A、B、M卡</string>
+	<string name="rfid_attention">注意：标配版没有非接模块</string>
+	<string name="rfid">非接卡</string>
+
+	<string name="support">支持</string>
+	<string name="nonSupport">不支持</string>
+
+	<string name="sdkLevel">SDK版本</string>
+	<string name="deviceIMEI">IMEI</string>
+	<string name="frontCameraPix">前置摄像头</string>
+	<string name="backCameraPix">后置摄像头</string>
+	<string name="electricLevel">当前电量</string>
+
+ 	<string name="systemtag2">ft5x0x触摸屏 固件版本:</string>
+ 	<string name="transmitunknowndesc">未知</string>
+
+	<string name="check">查找升级包</string>
+	<string name="update">升级</string>
+	<string name="click_check">准备查找升级包文件！</string>
+
+	<string name="str_find">找到</string>
+	<string name="str_num_files">个文件</string>
+
+	<string name="str_begin_copy">正在复制文件……</string>
+	<string name="str_begin_install">开始升级系统……</string>
+	<string name="str_begin_verify">开始校验升级包……</string>
+	<string name="str_install_err">升级错误！没有权限？</string>
+	<string name="str_verify_err">升级包校验失败！</string>
+	<string name="str_verify_file_err">升级包读取失败！</string>
+	<string name="str_verify_ok">升级包校验通过！</string>
+
+	<string name="str_verify">校验升级包</string>
+	<string name="str_verifying">正在校验升级包，请稍候……\n</string>
+
+	<string name="str_copy2sd">复制升级包到内置存储器</string>
+	<string name="str_copying">正在复制升级包，请稍候……\n</string>
+
+	<string name="str_copy_ok">文件复制成功！</string>
+	<string name="str_copy_fail1">文件复制失败，文件大小不同！</string>
+	<string name="str_copy_fail2">文件复制失败，文件不存在！</string>
+
+	<string name="text_title_settings">设置</string>
+	<string name="text_title_service">服务</string>
+	<string name="text_title_device">设备</string>
+	<string name="text_title_remote">远程控制</string>
+	<string name="connection">服务器连接</string>
+	<string name="connect_fail">连接失败</string>
+	<string name="connect_success">连接成功</string>
+	<string name="remote_service">远程服务</string>
+	<string name="vncserver_describe"> 1、点击“开始”按钮，启动vncserver服务，等待远程控制！\n2、点击“停止”按钮，关闭远程控制。</string>
+	<string name="remote_service_state_on">开启</string>
+	<string name="remote_service_state_off">关闭</string>
+	<string name="remote_service_status">off</string>
+	<string name="update_mode">自动更新</string>
+	<string name="update_mode_state_on">开启</string>
+	<string name="update_mode_state_off">关闭</string>
+	<string name="PartnerID"> 伙伴ID</string>
+	<string name="PartnerIDNum">123456</string>
+	<string name="IPandPort">IP地址:端口</string>
+	<string name="OgrID">组织ID</string>
+	<string name="telecontrol_mode">远程控制方式</string>
+	<string name="telecontrol_mode_choose">远程控制方式选择</string>
+	<string name="vncserver">局域网</string>
+	<string name="Teamviewer">互联网</string>
+    <string name="OgrIDValue">1002</string>
+	<string name="EqtCode">设备编码</string>
+    <string name="EqtCodeValue">00</string>
+	<string name="IPandPortValue">192.168.0.2:8080</string>
+	<string name="Save_Settings">保存设置</string>
+	<string name="confirm">确定</string>
+	<string name="cancle">取消</string>
+
+	<string name="back">返回</string>
+	<string name="message_center">消息中心</string>
+	<string name="msg_all">全部</string>
+	<string name="msg_read">已读</string>
+	<string name="msg_unread">未读</string>
+	<string name="message_details">消息详情</string>
+	<string name="remote_update_message">远程终端更新通知详情</string>
+	<string name="update_time">更新时间</string>
+	<string name="file_name">文件名称</string>
+	<string name="update_version">版本号</string>
+	<string name="MD5_check">MD5校验</string>
+	<string name="detail_info">详情</string>
+	<string name="execute_result">执行状态</string>
+    <string name="execute_re_success">成功</string>
+    <string name="execute_re_fail">失败</string>
+    <string name="execute_time">执行时间</string>
+	<string name="execute_re_left">执行结果</string>
+	<string name="execute_result_excuted">已执行</string>
+	<string name="execute_result_unexcuted">未执行</string>
+	<string name="task_serial">任务序列号</string>
+	<string name="app_update">应用更新</string>
+	<string name="sys_update">系统更新</string>
+	<string name="app_update_details">您有一个新的应用更新消息!</string>
+	<string name="sys_update_details">您有一个新的系统升级消息!</string>
+	<string name="data_today">今天</string>
+	<string name="refresh">正在刷新</string>
+	<string name="loading">正在加载</string>
+
+	<string name="upload_file">日志上传</string>
+	<string name="upload_path">文件路径</string>
+	<string name="upload_browse">浏览</string>
+
+	<!-- 保存到共享数据的值：0，1，2，3，4，5，6 -->
+	<string-array name="feeds_list">
+		<item>"0mm"</item>
+		<item>"5mm"</item>
+		<item>"10mm"</item>
+		<item>"15mm"</item>
+		<item>"20mm"</item>
+		<item>"25mm"</item>
+		<item>"30mm"</item>
+	</string-array>
+	<string name="cpu_widget_text">CPU占用率</string>
+	<string name="add_widget">增加小部件</string>
+	<string name="customwidget_text">自定义控件</string>
+</resources>
