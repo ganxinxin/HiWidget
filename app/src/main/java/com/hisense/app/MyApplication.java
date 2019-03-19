@@ -12,10 +12,11 @@ import android.os.IBinder;
 import android.provider.Settings;
 import android.util.Log;
 import com.hisense.pos.aidl.hk716Api;
+import com.hisense.utils.AndroidUtils;
 import com.hisense.utils.GlobalData;
 
-
-
+import com.hisense.hs650service.aidl.HS650Api;
+import com.hisense.hs650service.aidl.Printer;
 /**
  * Created by ganjing on 2019/2/18.
  */
@@ -26,17 +27,28 @@ public class MyApplication extends Application {
 
     private static Context mContext;
     private static MyApplication instance;
-
+    private static HS650Api hs650ApiHandler;
+    private static Printer hs650Printer;
     /**
      * 绑定服务
      */
     ServiceConnection serviceConn = new ServiceConnection() {
         @Override
         public void onServiceConnected(ComponentName name, IBinder service) {
-            GlobalData.hk716api = hk716Api.Stub.asInterface(service);
-            Log.i(TAG, "onServiceConnected: ");
             try {
-                GlobalData.printer = GlobalData.hk716api.getPrinter();
+                if ("HS210R".equals(AndroidUtils.getDeviceModel())) {
+                    Log.i(TAG, "onServiceConnected:HS650Api");
+                    hs650ApiHandler = HS650Api.Stub.asInterface(service);
+                    if (hs650ApiHandler != null) {
+                        hs650Printer = hs650ApiHandler.getPrinter();
+                    }
+                } else {
+                    Log.i(TAG, "onServiceConnected:hk716api");
+                    GlobalData.hk716api = hk716Api.Stub.asInterface(service);
+                    if (GlobalData.hk716api != null) {
+                        GlobalData.printer = GlobalData.hk716api.getPrinter();
+                    }
+                }
             } catch (Exception e) {
                 e.printStackTrace();
             }
@@ -47,13 +59,20 @@ public class MyApplication extends Application {
             Log.i(TAG, "onServiceDisconnected: ");
             GlobalData.hk716api = null;
             GlobalData.printer = null;
+            hs650ApiHandler = null;
+            hs650Printer = null;
         }
     };
 
     private boolean BindService() {
         Intent intent = new Intent();
-        Log.e("MyApplication", "BindService");
-        intent.setPackage("com.hisense.hk716api");
+        if("HS210R".equals(AndroidUtils.getDeviceModel())){
+            Log.e("MyApplication", "Bind:HS650Api");
+            intent.setPackage("com.hisense.hs650api");
+        }else{
+            Log.e("MyApplication", "Bind:hk716api");
+            intent.setPackage("com.hisense.hk716api");
+        }
         return bindService(intent, serviceConn, Service.BIND_AUTO_CREATE);
     }
 
@@ -79,7 +98,9 @@ public class MyApplication extends Application {
     public static Context getContext() {
         return mContext;
     }
-
+    public static Printer getPrinter() {
+        return hs650Printer;
+    }
     /**
      * 申请权限
      */

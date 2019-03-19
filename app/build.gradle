@@ -69,11 +69,6 @@ dependencies {
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
     compile 'com.android.support:design:26.+'
-    implementation files('libs/ZipEntry.jar')
-    implementation files('libs/BaiduLBS_Android.jar')
     implementation files('libs/butterknife-6.0.0.jar')
-    implementation files('libs/hy.jar')
-    implementation files('libs/Android_SDK_ESC_PROV0.0.3.jar')
-    implementation files('libs/com.google.gson-2.2.4.jar')
-
+    implementation files('libs/HSAIDL.jar')
 }

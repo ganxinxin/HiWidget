@@ -6,6 +6,8 @@ import java.io.FileFilter;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.net.Inet4Address;
@@ -51,6 +53,41 @@ import com.hisense.app.MyApplication;
 public class AndroidUtils {
 
     private static AudioManager mAudioManager;
+
+    public static String execMemoryTest(int ispace, int time) {
+        String result = "UNKNOWN";
+        Runtime mRuntime = Runtime.getRuntime();
+        try {
+            String mainCmd = "stressapptest";
+            String cmd = mainCmd + "  -M " + ispace + " -s " + time + "\n";
+            Process process = mRuntime.exec(cmd);
+            InputStream is = process.getInputStream();
+            InputStreamReader isr = new InputStreamReader(is);
+            BufferedReader mReader = new BufferedReader(isr);
+            String string;
+            while ((string = mReader.readLine()) != null) {
+                if (string.contains("Status: FAIL - test discovered HW problems")) {
+                    result = "FAIL";
+                } else if (string.contains("Status: PASS - please verify no corrected errors")) {
+                    result = "SUCCESS";
+                }
+            }
+            //Android 7.1.2 Problem: java.io.IOException: Cannot run program "sh": error=24, Too many open files
+            if (process.getOutputStream() != null) {
+                process.getOutputStream().close();
+            }
+            if (process.getInputStream() != null) {
+                process.getInputStream().close();
+            }
+            if (process.getErrorStream() != null) {
+                process.getErrorStream().close();
+            }
+            process.destroy();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return result;
+    }
 
     //获取序列号
     public static String getMachineNo() {

@@ -6,7 +6,6 @@ package com.hisense.utils;
 
 import com.hisense.pos.aidl.Printer;
 import com.hisense.pos.aidl.hk716Api;
-
 import java.util.concurrent.Executors;
 import java.util.concurrent.ScheduledExecutorService;
 
